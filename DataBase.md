@@ -203,3 +203,30 @@ add constraint 블로그_ID_FK
 foreign key(Naver_ID) references 네이버회원(Naver_ID);
 ```
 
+### ALTER 실습❗
+``` sql
+-- 1-2. alter
+-- 네이버 회원 테이블에 나이 컬럼 추가
+alter table 네이버회원
+add  나이 number default 0;
+
+-- 나이 컬럼 삭제
+alter table 네이버회원
+drop column 나이;
+
+-- 컬럼 속성 변경
+alter table 네이버회원
+modify Naver_ID varchar(30);
+
+-- 컬럼 이름 변경
+alter table 네이버회원
+rename column Naver_ID to 네이버아이디;
+
+-- 1-3 drop
+-- ORA-02449: unique/primary keys in table referenced by foreign keys
+-- FK로 참조가 되어 있는 경우 삭제가 불가능
+drop table 네이버회원;
+
+-- fk관계도 같이 삭제
+drop table 네이버회원 cascade constraint;
+```
