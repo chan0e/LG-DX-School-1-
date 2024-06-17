@@ -1,5 +1,5 @@
 ###### DBMS는 ORACLE
-
+###### Oracle SQL Developer 사용
 ## 데이터 베이스란?
 
 - 여러 사용자가 공유하여 사용할 수 있도록 통합해서 저장한 운영 데이터의 집합
@@ -153,7 +153,7 @@ alter table 테이블명 add constraint 제약조건 제약조건(컬럼);
 alter table 사원 add constraint 사원_사원ID_PK primary key(사원ID);
 
 -- fk
--- 1. 부서 테이블의 부서코드 칼럼이 uk or pr가 아니기 때문에 참조가 불가능!
+-- 1. 부서 테이블의 부서코드 칼럼이 uk or pk가 아니기 때문에 참조가 불가능!
 -- ORA-02270: no matching unique or primary key for this column-list
 alter table  사원 add constraint 사원_부서코드 foreign key(부서코드) 
 REFERENCES 부서(부서코드);
