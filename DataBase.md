@@ -36,15 +36,18 @@ ERD그리는 순서는?
 
 관계 중복(Cardinality)를 기술하는 방법
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cdfa4d55-2fb4-4225-a210-896d8982461a/a30a84ca-e868-418d-b3d5-9bd5f4de9cbe/Untitled.png)
+![Untitled (2)](https://github.com/chan0e/LG_DX_School_1/assets/94053008/5583f1cf-1385-404c-b132-ba8aa532ad3c)
+
 
 관계의 참여도(Optionality)를 기술하는 방법
+![Untitled (3)](https://github.com/chan0e/LG_DX_School_1/assets/94053008/620415f5-0761-4eb6-878e-5fce31d1db97)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cdfa4d55-2fb4-4225-a210-896d8982461a/a790e441-a2a6-4898-b105-1640097418b4/Untitled.png)
+
 
 ERD의 표기법
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cdfa4d55-2fb4-4225-a210-896d8982461a/95ca7394-ef80-4a21-89f8-e93849322be7/Untitled.png)
+![Untitled (4)](https://github.com/chan0e/LG_DX_School_1/assets/94053008/709fb44b-cd1c-4825-a3a8-f3c13a040bf4)
+
 
 실습❗
 
@@ -60,8 +63,9 @@ AI캠퍼스에서 학생들의 정보를 관리하는 프로그램을 만들려�
 과정은 학생들을 보유하지 않을 수 도 있고,
 여러 학생들을 보유하고 있을 수 있습니다.
 ```
+![Untitled (5)](https://github.com/chan0e/LG_DX_School_1/assets/94053008/bd2f0c14-aaa3-4af1-8c48-56a681d9fa57)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cdfa4d55-2fb4-4225-a210-896d8982461a/d8a13f2b-f7d6-4089-8a67-d0c04cae30fd/Untitled.png)
+
 
 이렇게 작성한 이유는?
 
@@ -69,7 +73,8 @@ AI캠퍼스에서 학생들의 정보를 관리하는 프로그램을 만들려�
 
 정답)👌 → 과정이 한가지로 의도했을 때 였음. 나는 대학교 수강신청 느낌으로 작성함
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cdfa4d55-2fb4-4225-a210-896d8982461a/64ce3fda-8eed-476d-84c7-7bc4c92272c8/Untitled.png)
+![Untitled (6)](https://github.com/chan0e/LG_DX_School_1/assets/94053008/7a8ced61-3f26-4103-803d-491e9184ebc4)
+
 
 논리적 모델링
 
@@ -81,9 +86,11 @@ AI캠퍼스에서 학생들의 정보를 관리하는 프로그램을 만들려�
 
 - 데이터가 중복되지 않도록 엔터티를 쪼개는 것
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cdfa4d55-2fb4-4225-a210-896d8982461a/a18d9639-45aa-4ad7-803a-f2e50d742727/Untitled.png)
+![Untitled (7)](https://github.com/chan0e/LG_DX_School_1/assets/94053008/b506253b-446c-4a6d-bf3a-8e2e0811e8de)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cdfa4d55-2fb4-4225-a210-896d8982461a/d5943d0b-ccfd-4afa-aad7-bd1488eca57c/Untitled.png)
+![Untitled (8)](https://github.com/chan0e/LG_DX_School_1/assets/94053008/12b3b5e0-f1f4-4d2a-8cca-0f3431948c91)
+
+
 
 실습❗
 
@@ -99,4 +106,6 @@ AI캠퍼스에서 학생들의 정보를 관리하는 프로그램을 만들려�
 여러 직원들을 보유하고 있을 수 있다.
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cdfa4d55-2fb4-4225-a210-896d8982461a/39df60c3-f839-442d-9877-12107eae42ba/Untitled.png)
+![Untitled (9)](https://github.com/chan0e/LG_DX_School_1/assets/94053008/9d8705f0-a8d8-4f7a-ab7a-b645ade0a1a2)
+
+
